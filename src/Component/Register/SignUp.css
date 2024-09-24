@@ -1,0 +1,109 @@
+* {
+    font-family: "Poppins";
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: #1e262c;
+    height: 100vh;
+    margin-left: 0rem;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.screen-1 {
+    background: #808891;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    gap: 1em;
+    width: 300px;
+    height: 80vh;
+}
+
+.screen-1 .logo {
+    margin-left: 3.5rem;
+    width: 150px;
+    height: 150px;
+}
+
+.screen-1 .email,
+.screen-1 .password {
+    background: #61626b;
+    box-shadow: 0 0 2em #61626b;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    border-radius: 20px;
+}
+
+.screen-1 .email input,
+.screen-1 .password input {
+    outline: none;
+    border: none;
+    padding: 0.1em;
+    font-size: 0.8em;
+}
+
+.screen-1 .email ion-icon,
+.screen-1 .password ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+    font-size: 1em;
+}
+
+.screen-1 .password .show-hide {
+    margin-right: -4em;
+}
+
+.screen-1 .login {
+    padding: 0.75em;
+    background: #07b586;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.9em;
+    width: 100%;
+    text-align: center;
+}
+
+/* .screen-1 .footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+    color: #5e5e5e;
+    padding-top: 1em;
+} */
+
+/* .screen-1 .footers {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 0.7em;
+    color: #5e5e5e;
+    padding-top: 1em;
+} */
+
+*/ .screen-1 .footer span {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}

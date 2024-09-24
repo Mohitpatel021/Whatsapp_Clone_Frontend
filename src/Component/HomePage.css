@@ -1,0 +1,13 @@
+ ::-webkit-scrollbar {
+     width: 5px;
+
+ }
+
+ ::-webkit-scrollbar-thumb {
+     background-color: grey;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
